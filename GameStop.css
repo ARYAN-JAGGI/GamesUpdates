@@ -1,0 +1,275 @@
+        .child-1{
+            float: left;
+            background-color: black;
+            width: 1650px;
+            margin-top: 15px;
+            margin-left: 25px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+
+        .fix{
+            clear: both;
+        }
+        .subchild-1{
+            float: left;
+            color: white;
+            margin-left: 50px;
+            font-size: large;
+            
+        }
+        .subchild-2{
+            float: right;
+            margin-top: 20px;
+            
+        }
+
+        .child-2{
+            height: 200px;
+            background-color: #ccce8b;
+            width: 1700px;
+            text-align: center;
+            border-radius: 10px;
+
+            
+        }
+        .child-3{
+            color: brown;
+            font-size: large;
+            
+            
+        }
+
+        .parent-g{
+            background-color: #9b75b6;
+            margin: 0px;
+            width: 1700px;
+            height: 5000px;
+            border-radius: 10px;
+        }
+        .child-4{
+            background-color: white;
+            float: left;
+            width: 350px;
+            height: 600px;
+            margin-left: 30px;
+            margin-top: 20px;
+            border-radius: 10px;
+            font-size: large;
+        }
+
+        .child-5{
+            float: right;
+            height: 422px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: 35px;
+            margin-right: 105px;
+            background-color: #FFFFE3;
+            
+        }
+
+        .i1, .i2, .i3, .i4, .i5, .i6{
+            margin: auto;
+            height: 160px;
+            width: 500px;
+            border-radius: 10px;
+            margin-right: 25px;
+            
+        }
+
+        .t1, .t2, .t3, .t4, .t5, .t6{
+            margin: auto;
+        }
+
+        .r1, .r2, .r3, .r4, .r5, .r6{
+            height: 27px;
+            width: 97px;
+            background-color: cyan;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+
+        /* For removing the underline, from all the words created to links via anchor tags */
+        a{
+            text-decoration: none;
+        }
+
+        /* for zoom and clicking motion of the Read More Section button */
+        .btn{
+            transition: transform 0.4s ease;
+            transition-property: margin-right;
+            height: 35px;
+            width: 115px;
+            background-color: cyan;
+            border-radius: 10px;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+        .btn :hover{
+            transform: scale(1.75);
+        }
+        .btn:active{
+            transform: scale(1.75);
+        }
+
+        /* To make the divs pop out like zoom effect */
+        .divzoom{
+            transition: transform 0.2s ease;
+            transition-property: margin-right;
+            cursor: pointer;
+        }
+        .divzoom:hover{
+            transform: scale(1.1);
+        }
+        .divzoom:active{
+            transform: scale(1.1);
+        }
+
+
+        .child-6{
+            float: right;
+            height: 422px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: 35px;
+            margin-right: 115px;
+            background-color: #FFFFE3;
+            
+        }
+
+        .child-7{
+            float: right;
+            height: 362px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: 80px;
+            margin-right: 84px;
+            background-color:#FFFFE3;
+            
+        }
+
+        .child-8{
+            float: right;
+            height: 343px;
+            width: 500px;
+            border-radius: 20px;
+            margin-top: 45px;
+            margin-right: 60px;
+            background-color: #FFFFE3;
+            
+        }
+
+        .child-9{
+            float: right;
+            height: 422px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: 20px;
+            margin-right: 25px;
+            background-color: #FFFFE3;
+            
+        }
+
+        .child-10{
+            float: right;
+            height: 388px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: -136px;
+            margin-right: 25px;
+            background-color: #FFFFE3;
+        }
+
+        .child-11{
+            float: right;
+            height: 388px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: -179px;
+            margin-right: 90px;
+            background-color: #FFFFE3;
+        }
+
+        .child-12{
+            float: left;
+            height: 388px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top:20px;
+            margin-left: 53px;
+            background-color: #FFFFE3;
+        }
+
+        .child-13{
+            float: right;
+            height: 388px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: 30px;
+            margin-right: 32px;
+            background-color: #FFFFE3;
+        }
+
+        .child-14{
+            float: right;
+            height: 388px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: 27px;
+            margin-right: 50px;
+            background-color: #FFFFE3;
+        }
+
+        .child-15{
+            float: right;
+            height: 388px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: -531px;
+            margin-right: 15px;
+            background-color: #FFFFE3;
+        }
+
+        .child-16{
+            float: right;
+            height: 388px;
+            width: 500px;
+            border-radius: 10px;
+            margin-top: -112px;
+            margin-right: 66px;
+            background-color: #FFFFE3;
+        }
+    
+        
+
+        /* crolling animation for divs from child-7 to child-10 */
+        .scroll{
+            background: #FFFFE3;
+        }
+        @keyframes appear{
+            from{
+                opacity: -10;
+                transform: translateY(40px) scale(0.9);
+            }
+            to{
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+        /* Reveal Section of the divs but its not working for now , idk why, I need to study this */
+        .reveal{
+            animation: appear linear both;
+            animation-timeline: view();
+            animation-range: entry 0% cover 30%;
+            animation-duration: 100s;
+        }
+
+        .footer{
+            height: 200px;
+            background-color: black;
+        }
+
+        
+    
